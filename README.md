@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Todo App
 
+A simple Todo application built with Next.js, allowing users to manage their tasks efficiently. This application features CRUD operations (Create, Read, Update, Delete) for tasks and utilizes a mock backend for data storage.
+
+## Features
+
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- View all tasks in a list
+- Responsive design
+
+## Technologies Used
+
+- **Frontend**: 
+  - Next.js
+  - React
+  - TypeScript
+  - Tailwind CSS
+- **Backend**: 
+  - JSON Server (for mock API)
+  
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Make sure you have the following installed:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (version 14 or higher)
+- npm (Node Package Manager)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Abubeker-Yirga/Todo-App.git
+   cd Todo-App
 
-## Learn More
+2. npm install
 
-To learn more about Next.js, take a look at the following resources:
+3. {
+  "tasks": []
+}
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. npx json-server --watch db.json --port 3001
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. npm run dev
